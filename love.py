@@ -1,4 +1,3 @@
-# Payment cyberarm@ybl
 
 from os import system, name
 import itertools
@@ -22,7 +21,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
+                sys.stdout.write('\rHacking in the Parity Server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -41,7 +40,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.write('\r---------Getting the colour Please wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -78,9 +77,11 @@ def hero():
         current=input("Enter Hear:- " )
         current=int(current)
         #chalo()
+        chalo()
         print("\n---------Successfully hacked the server-----------")
         #chalo1()
-        print("\n---------Successfully got the colour -------------")
+        chalo1()
+        print("\n---------Successfully got the colour-------------")
         print('\n')
         def getSum(n):
             sum=0
@@ -126,6 +127,7 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @Black Cannon")
             #print(numbers)
+            
 
 
 if(expirydate>today):
@@ -140,7 +142,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=480
+            period=438
             hero()
     elif(False):
             period=280
