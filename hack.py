@@ -11,7 +11,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date  
    
-expirydate = datetime.date(2025, 10, 25)
+expirydate = datetime.date(2025, 9, 15)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
   
@@ -24,7 +24,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rHacking in the Parity Server for next colour--------- ' + c)
+                sys.stdout.write('\rGetting Result From Parity Server for next color---- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -43,7 +43,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\r---------Getting the colour Please wait --------- ' + c)
+                sys.stdout.write('\r---------Getting the color Please wait --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!  ')
@@ -88,12 +88,13 @@ def hero():
         current=int(current)
         #chalo()
         chalo()
-        print("---------Successfully hacked the server-----------")
-        
-        print('\n\n')
+        print('\n')
+        print("---------Successfully hacked the server----------")
+         
         #chalo1()
         chalo1()
-        print("---------Successfully got the colour-------------")
+        print('\n')
+        print("---------Successfully got the color------------")
         print('\n')
         def getSum(n):
             sum=0
@@ -105,31 +106,32 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1," : RED \U0001F534 ")
+                    print("Your Next Round ", newperiod+1,"color Result is  : RED \U0001F534 ")
                 else:
-                    print(newperiod+1," : GREEN \U0001F7E2 ")
+                    print("Your Next Round ", newperiod+1,"color Result is  : GREEN \U0001F7E2 ")
             else:
                 if current in numbers:
-                    print(newperiod+1," : GREEN \U0001F7E2 ")
+                    print("Your Next Round ", newperiod+1,"color Result is  : GREEN \U0001F7E2 ")
                 else:
-                    print(newperiod+1," : RED \U0001F534 ")
+                    print("Your Next Round ", newperiod+1,"color Result is  : RED \U0001F534 ")
         if i in thatway:
             m=getSum(current)+1
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": RED \U0001F534 ")
+                    print("Your Next Round ", newperiod+1,"color Result is : RED \U0001F534 ")
                 else:
-                    print(newperiod+1,": GREEN \U0001F7E2 ")
+                    print("Your Next Round ", newperiod+1,"color Result is : GREEN \U0001F7E2 ")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN \U0001F7E2 ")
+                    print("Your Next Round ", newperiod+1,"color Result is : GREEN \U0001F7E2 ")
                 else:
-                    print(newperiod+1,": RED \U0001F534 ")
+                    print("Your Next Round ", newperiod+1,"color Result is : RED \U0001F534 ")
         i=i+1
         newperiod+=1
         numbers.append(current)
         
+        print('\n')
         print("Happy Haking \U0001f600 \U0001f600 \U0001f600 \U0001f600 \U0001f600")
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
