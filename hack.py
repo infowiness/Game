@@ -33,7 +33,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(10)
+        time.sleep(15)
         done = True
 
     def chalo1():
@@ -52,7 +52,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(10)
+        time.sleep(15)
         done = True
 
     def clear():
@@ -79,7 +79,7 @@ def hero():
         clear()
         system(banner)
         print("\n*************************************************")
-        print("Contact me on telegram @ Black Cannon")
+        print("Contact me on telegram @black_cannon")
         print("\n--------------------------------------------------")
         print("Enter ",newperiod," Parity Price :")
         print("\n*************************************************")
@@ -141,7 +141,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Black Cannon")
+            sys.exit(" \n \n \n Contact on Telegram @black_cannon")
             #print(numbers)
             
 
@@ -207,7 +207,7 @@ if(expirydate>today):
         print("22nd oct 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @Black Cannon ")
+        print(" admin on telegram @black_cannon ")
 
 
 
@@ -215,4 +215,4 @@ else:
     banner='figlet RXCE'
     system(banner)
     print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@Black Cannon")
+    print(" on telegram -----------@black_cannon")
