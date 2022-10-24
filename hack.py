@@ -33,7 +33,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(15)
+        time.sleep(10)
         done = True
 
     def chalo1():
@@ -52,7 +52,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(15)
+        time.sleep(10)
         done = True
 
     def clear():
